@@ -1,0 +1,65 @@
+/* সাধারণ সেটিংস */
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+/* --------------------- */
+/* ডার্ক মোড সেটিংস */
+/* --------------------- */
+/* ডার্ক মোড জন্য ক্লাস */
+.dark-mode {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}
+
+/* হেডার ও ফটোকেসেট ডার্ক মোড */
+.dark-mode header {
+  filter: brightness(0.6);
+}
+
+/* Footer ডার্ক মোড */
+.dark-mode footer {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+}
+
+/* W3.CSS ক্লাস ও কার্ড ডার্ক মোডে */
+.dark-mode .w3-white,
+.dark-mode .w3-light-grey,
+.dark-mode .w3-card,
+.dark-mode .w3-dark-grey,
+.dark-mode .w3-black {
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+}
+
+/* লিঙ্ক/বাটন কালার */
+.dark-mode a.w3-button {
+  background-color: #333333 !important;
+  color: #ffffff !important;
+}
+
+/* ইনপুট এবং টেক্সট এরিয়া */
+.dark-mode input,
+.dark-mode textarea {
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+  border: 1px solid #555 !important;
+}
